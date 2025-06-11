@@ -9,3 +9,4 @@ function checkAnswer() {
   }
   document.getElementById("submit-answer").disabled = true;
 }
+document.getElementById("submit-answer").addEventListener("click", checkAnswer);
